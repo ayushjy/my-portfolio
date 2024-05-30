@@ -1,0 +1,248 @@
+{
+    "table_details": [
+        {
+            "id": 1,
+            "name": "Education",
+            "title": "Chandigarh University",
+            "title_head": "Computer Science Engineering | 2020 - 2024",
+            "desc1": "Completed relevant coursework in data structures and algorithms, software engineering, operating systems, and database systems",
+            "desc2": "Volunteered juniors to Up-skill in programming and Web Development"
+        },
+        {
+            "id": 2,
+            "name": "Experiance",
+            "title": "Stratzy",
+            "title_head": "SDE Intern ( Full-Stack ) | OCT 2022 - JUL 2023",
+            "desc1": "Contributed to the development of a virtual investment guide platform using React, Node.js, and MongoDB",
+            "desc2": "Demonstrated proficiency in web sockets and real-time data synchronization while developing full-stack applications.",
+            "desc3": "Participated in team meetings and contributed ideas forimproving the platform’s functionality and user experience"
+        },
+        {
+            "id": 3,
+            "name": "Skills",
+            "title": ""
+        },
+        {
+            "id": 4,
+            "name": "Achievements",
+            "title": ""
+        },
+        {
+            "id": 5,
+            "name": "Resume",
+            "title": ""
+        }
+    ],
+
+    "card_details": [
+        {
+            "id": 1,
+            "category": "Hackethon",
+            "title": "Skillsphere: Learning platform",
+            "year": 2023,
+            "tech": [
+                {
+                    "pngimg": "/assets/tailwind.png"
+                },
+                {
+                    "pngimg": "/assets/nextjs.png",
+                    "color": "black"
+                },
+                {
+                    "pngimg": "/assets/javascript.png"
+                },
+                {
+                    "pngimg": "/assets/redux.png",
+                    "color": "black"
+                },
+                {
+                    "pngimg": "/assets/firebase.png"
+                }
+            ],
+            "image": "/assets/skillsphere.png",
+            "weblink":"https://skillsphere-ayush-jyoti-edtech.vercel.app/",
+            "gitlink":"https://github.com/ayushjy/skillsphere.git",
+            "type": "Webapp"
+        },
+        {
+            "id": 2,
+            "category": "personal",
+            "title": "Google 2.0",
+            "year": 2023,
+            "tech": [
+                {
+                    "pngimg": "/assets/tailwind.png"
+                },
+                {
+                    "pngimg": "/assets/nextjs.png",
+                    "color": "black"
+                },
+                {
+                    "pngimg": "/assets/javascript.png"
+                }
+            ],
+            "image": "/assets/google.png",
+            "weblink":"https://google-2-0-ayush-jyoti.vercel.app/",
+            "gitlink":"https://github.com/ayushjy/Google-2.0.git",
+            "type": "Webapp"
+        },
+        {
+            "id": 3,
+            "category": "personal",
+            "title": "TrickTalk",
+            "year": 2024,
+            "tech": [
+                {
+                    "pngimg": "/assets/tailwind.png"
+                },
+                {
+                    "pngimg": "/assets/nextjs.png",
+                    "color": "black"
+                },
+                {
+                    "pngimg": "/assets/javascript.png"
+                },
+                {
+                    "pngimg": "/assets/redux.png",
+                    "color": "black"
+                },
+                {
+                    "pngimg": "/assets/firebase.png"
+                }
+            ],
+            "image": "/assets/tricktalk.png",
+            "weblink":"https://tricktalk-ayush-jyoti.vercel.app/",
+            "gitlink":"https://github.com/ayushjy/Tricktalk.git",
+            "type": "Webapp"
+        }
+    ],
+    "project_info": [
+        {
+            "id": 1,
+            "title": "Pizza House",
+            "link": "https://pizza-house-ayush-jyoti.vercel.app/",
+            "weblink":"https://pizza-house-ayush-jyoti.vercel.app/",
+            "gitlink":"https://github.com/ayushjy/Pizza_House.git",
+            "tech": [
+                "nextjs",
+                "tailwind",
+                "javascript",
+                "framer-motion"
+            ]
+        },
+        {
+            "id": 2,
+            "title": "CuePoint",
+            "link": "",
+            "weblink":"",
+            "gitlink":"https://github.com/ayushjy/CuePoint.git",
+            "tech": [
+                "nextjs",
+                "tailwind",
+                "javascript"               
+            ]
+        },
+        {
+            "id": 3,
+            "title": "SkyCast",
+            "link": "https://sky-cast-ayush-jyoti.vercel.app/",
+            "weblink":"https://sky-cast-ayush-jyoti.vercel.app/",
+            "gitlink":"https://github.com/ayushjy/SkyCast.git",
+            "tech": [
+                "Html",
+                "Bootstrap",
+                "javascript",
+                "api"
+            ]
+        },
+        {
+            "id": 4,
+            "title": "Grocify",
+            "link": "https://github.com/ayushjy/grocify.git",
+            "weblink":"https://github.com/ayushjy/grocify.git",
+            "gitlink":"https://github.com/ayushjy/grocify.git",
+            "tech": [
+                "Next.js",
+                "tailwind",
+                "responsive web-design"
+            ]
+        },
+        {
+            "id": 5,
+            "title": "cortexUI",
+            "link": "https://cortexui-ayush-jyoti.vercel.app/",
+            "weblink":"https://cortexui-ayush-jyoti.vercel.app/",
+            "gitlink":"https://github.com/ayushjy/CortexUI.git",
+            "tech": [
+                "React",
+                "tailwind",
+                "responsive web-design"
+            ]
+        }
+    ],
+
+    "tools": [
+        {
+            "category": "FRONTEND",
+            "images": [
+                {
+                    "name": "js",
+                    "src": "/assets/javascript.png"
+                },
+                {
+                    "name": "react",
+                    "src": "/assets/react.png"
+                },
+                {
+                    "name": "redux",
+                    "src": "/assets/redux.png"
+                },
+                {
+                    "name": "tailwind",
+                    "src": "/assets/tailwind.png"
+                },
+                {
+                    "name": "next",
+                    "src": "/assets/nextjs.png"
+                },
+                {
+                    "name": "html",
+                    "src": "/assets/html.png"
+                },
+                {
+                    "name": "css",
+                    "src": "/assets/css.png"
+                }
+            ]
+        },
+        {
+            "category": "OTHER",
+            "images": [
+                {
+                    "name": "github",
+                    "src": "/assets/github.png"
+                },
+                {
+                    "name": "mongodb",
+                    "src": "/assets/mongo.png"
+                },
+                {
+                    "name":"firebase",
+                    "src":"/assets/firebase.png"
+                },
+                {
+                    "name": "framer",
+                    "src": "/assets/framer.png"
+                },
+                {
+                    "name": "vscode",
+                    "src": "/assets/vscode.png"
+                },
+                {
+                    "name": "vercel",
+                    "src": "/assets/vercel.png"
+                }
+            ]
+        }
+    ]
+}
