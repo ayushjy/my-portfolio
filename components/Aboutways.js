@@ -2,7 +2,7 @@ import React from 'react'
 
 const Aboutways = () => {
   return (
-    <div className='px-64 pt-36 pb-48 flex flex-col max-2xl:px-48 max-lg:px-20 max-md:px-8'>
+    <div className='px-64 pt-36 max-md:pt-8 max-lg:pt-8 max-lg:pb-24 max-xl:pt-16 max-xl:pb-28 pb-48 max-md:pb-16 flex flex-col max-2xl:px-48 max-lg:px-20 max-md:px-8'>
             <div className='pb-24 max-xl:hidden'>
                 <div className='text-9xl font4 text-black text-center text_transparent'>&lt;About /&gt;</div>
                 <div className='text-8xl font5 text-white text-center -m-16'>Ways I can help you</div>

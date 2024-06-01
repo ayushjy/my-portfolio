@@ -14,35 +14,6 @@ const Aboutme = () => {
             desc1: 'Completed relevant coursework in data structures and algorithms, software engineering, operating systems, and database systems',
             desc2: 'Volunteered juniors to Up-skill in programming and Web Development'
         },
-        // {
-        //     id: 2,
-        //     name: 'Experiance',
-        //     job_details: [{
-        //         id: 1,
-        //         title: 'Stratezy',
-        //         title_head: 'SDE Intern ( Full-Stack ) | OCT 2022 - JUL 2023',
-        //         desc1: 'Contributed to the development of a virtual investment guide platform using React, Node.js, and MongoDB',
-        //         desc2: 'Demonstrated proficiency in web sockets and real-time data synchronization while developing full-stack applications.',
-        //         desc3: 'Participated in team meetings and contributed ideas forimproving the platform’s functionality and user experience'
-        //     },
-        //     {
-        //         id: 2,
-        //         title: 'Mynvera',
-        //         title_head: 'Lead Developer | FEB 2021 - FEB 2023',
-        //         desc1: 'Contributed to the development of a virtual investment guide platform using React, Node.js, and MongoDB',
-        //         desc2: 'Demonstrated proficiency in web sockets and real-time data synchronization while developing full-stack applications.',
-        //         desc3: 'Participated in team meetings and contributed ideas forimproving the platform’s functionality and user experience'
-        //     },
-        //     {
-        //         id: 3,
-        //         title: 'Virtuoso',
-        //         title_head: 'Full-Stack Developer | JUL 2022 - SEP 2022',
-        //         desc1: 'Contributed to the development of a virtual investment guide platform using React, Node.js, and MongoDB',
-        //         desc2: 'Demonstrated proficiency in web sockets and real-time data synchronization while developing full-stack applications.',
-        //         desc3: 'Participated in team meetings and contributed ideas forimproving the platform’s functionality and user experience'
-        //     }]
-        // },
-
         {
             id: 3,
             name: 'Skills',
@@ -112,7 +83,7 @@ const Aboutme = () => {
     };
 
     return (
-        <div className='py-48 px-64 flex flex-col max-lg:px-20 max-md:px-8  max-2xl:px-48'>
+        <div className='pt-48 pb-24 max-md:py-8 max-xl:py-20 max-lg:py-16 px-64 flex flex-col max-lg:px-20 max-md:px-8  max-2xl:px-48'>
             <div className=' pb-24 max-xl:hidden'>
                 <div className='text-9xl font4 text-black text-center text_transparent'>&lt;About /&gt;</div>
                 <div className='text-9xl font5 text-white text-center -m-20'>Ayush Jyoti</div>

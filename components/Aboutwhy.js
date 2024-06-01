@@ -11,7 +11,7 @@ const Aboutwhy = () => {
   };
 
   return (
-    <div className='px-64  flex flex-col max-2xl:px-48 max-lg:px-20 max-md:px-8'>
+    <div className='px-64 flex flex-col max-2xl:px-48 max-lg:px-20 max-md:px-8'>
             <div className='pb-24 max-xl:hidden '>
                 <div className='text-9xl font4 text-black text-center text_transparent'>&lt;About /&gt;</div>
                 <div className='text-9xl font5 text-white text-center -m-16'>Why ME?</div>

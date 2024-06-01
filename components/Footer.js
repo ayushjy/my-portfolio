@@ -2,7 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 const Footer = () => {
   return (
-    <div className=' flex justify-between items-center px-36 max-md:px-24 max-sm:px-16 py-12 max-sm:flex-col max-sm:gap-4'>
+    <div className=' flex justify-between items-center px-36 max-md:px-24 max-sm:px-16 py-12 max-md:py-6 max-sm:flex-col max-sm:gap-4'>
      
       <div className='flex max-sm:flex-col max-sm:items-center'>
       <Image src={"/assets/logo1.png"} width={65} height={120} ></Image>

@@ -11,12 +11,12 @@ const Aboutmore = () => {
       };
 
     return (
-        <div className='py-14 px-56 max-2xl:px-48 max-lg:px-20 max-md:px-8 flex flex-col'>
+        <div className='py-8 max-lg:pb-4 px-52 max-2xl:px-48 max-lg:px-20 max-md:px-8 flex flex-col'>
             <div className=' pb-8 max-xl:hidden'>
                 <div className='text-9xl font4 text-black text-center text_transparent'>&lt;About /&gt;</div>
                 <div className='text-9xl font5 text-white text-center -mt-20'>Ayush Jyoti</div>
             </div>
-            <div className='w-11/12 flex flex-col justify-center pt-8'>
+            <div className='w-11/12 flex flex-col justify-center pt-6'>
                 <div className='text-xl font4 pb-4'>
                     😎<span className='text-green-400'> About me</span>
                 </div>

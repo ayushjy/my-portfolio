@@ -23,15 +23,15 @@ const Contact = () => {
   };
 
   return (
-    <div className='px-56 py-36 flex flex-col max-lg:px-20 max-md:px-8 max-2xl:px-48'>
+    <div className='px-56 py-36 max-md:py-24 max-lg:py-24 max-xl:py-28 flex flex-col max-lg:px-20 max-md:px-8 max-2xl:px-48 max-xl:h-screen'>
         <div className='pb-24 max-xl:hidden'>
                 <div className='text-9xl font4 text-black text-center text_transparent lg:'>&lt;Contact /&gt;</div>
                 <div className='text-9xl font5 text-white text-center -my-16  max-xl:text-8xl'>👋 Say Hello</div>
             </div>
             <div className='w-11/12 flex flex-col justify-center pt-8 max-lg:'>
                 <div className='text-xl font4 pb-3 text-green-400'>📞 Get in Touch</div>               
-                <div className='text-gray-400 text-2xl font1 pb-2 max-lg:text-lg max-md:text-base'>Sweet, that's it from my side! Now it's your turn to say hi.</div>
-                <div className='text-gray-400 text-2xl font1 pb-3 max-lg:text-lg max-md:text-base'>I'm available for freelance projects. Let's work together to create something worth sharing.</div>
+                <div className='text-gray-400 text-2xl font1 pb-2 max-lg:text-lg max-md:text-lg'>Sweet, that's it from my side! Now it's your turn to say hi.</div>
+                <div className='text-gray-400 text-2xl font1 pb-3 max-lg:text-lg max-md:text-lg'>I'm available for freelance projects. Let's work together to create something worth sharing.</div>
             </div> 
             <div className='pt-4 flex gap-2  max-sm:flex-wrap'>
             <button onClick={handleWhatsappClick}  className=' border-2 border-green-400 text-green-400 hover:bg-gray-700 hover:text-white hover:border-gray-700 px-4 py-3 text-xs rounded-lg font3 flex justify-center items-center max-sm:w-36'><span className='pr-2'><FaWhatsapp size={20}/></span>WHATSAPP</button>

@@ -6,7 +6,7 @@ import { GoLinkExternal } from "react-icons/go";
 const Work = ({ card_details}) => {
 
     return (
-        <div className=' px-64 pb-10 flex flex-col max-2xl:px-48 max-lg:px-20 max-md:px-8'>
+        <div className='pt-24 px-64 pb-10 max-xl:pt-8 flex flex-col max-2xl:px-48 max-lg:px-20 max-md:px-8'>
             <div className='pb-24 max-xl:hidden'>
                 <div className='text-9xl font4 text-black text-center text_transparent'>&lt;Work /&gt;</div>
                 <div className='text-9xl font5 text-white text-center -m-20'>Featured</div>
