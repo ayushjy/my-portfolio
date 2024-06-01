@@ -36,7 +36,7 @@ const index = ({card_details}) => {
       <div className='flex gap-2 max-sm:flex-col'>
         <button onClick={handleWhatsappClick} className=' border-2 border-yellow-300 text-yellow-300 hover:bg-yellow-400 hover:text-white px-4 py-3 text-xs rounded-lg font3 flex justify-center items-center max-sm:w-36 max-sm:flex-wrap'><span className='pr-2'><FaWhatsapp size={20}/></span>CONTACT ME</button>
         {/* <a href="#work"><button className=' border-2 border-green-400 text-green-400 hover:bg-gray-700 hover:text-white hover:border-gray-700 px-4 py-4 text-xs rounded-lg font3 '>CHECTOUT MY WORK</button></a> */}
-        <button onClick={scrollToWork} className=' border-2 border-green-400 text-green-400 hover:bg-gray-700 hover:text-white hover:border-gray-700 px-4 py-4 text-xs rounded-lg font3 '>CHECTOUT MY WORK</button>
+        <button onClick={scrollToWork} className=' border-2 border-green-400 text-green-400 hover:bg-gray-700 hover:text-white hover:border-gray-700 px-4 py-4 text-xs rounded-lg font3 max-md:w-1/3 max-sm:w-1/2'>CHECTOUT MY WORK</button>
       </div>
       </div>
       <Aboutme/>

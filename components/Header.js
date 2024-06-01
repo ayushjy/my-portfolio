@@ -1,5 +1,6 @@
 import React from 'react'
-import { useState } from 'react'
+import { motion } from 'framer-motion';
+import { useState,useEffect } from 'react'
 import Navlink from '@/components/Navlink';
 import Image from 'next/image'
 import Link from 'next/link'
@@ -7,7 +8,8 @@ import Link from 'next/link'
 const Header = ({isSideiconpresent,setIsSideiconpresent}) => {    
 
     const [isopen , setIsopen ] = useState(false);
-
+    
+    
 
   const openmenubar = () =>{
           setIsopen(!isopen);
@@ -19,7 +21,6 @@ const Header = ({isSideiconpresent,setIsSideiconpresent}) => {
 
   return (
     <>
-    
     <div className={`flex justify-between sticky top-0 lg:px-32 md:px-20  px-10  pt-14 max-md:pt-8 bg-[#030a12] ${isopen ? 'z-50' : 'z-10'}`}>
     <div><Link href={"/"}>
       <Image src={"/assets/logo1.png"} width={52} height={100} onClick={offmenubar} ></Image></Link>
@@ -40,3 +41,4 @@ const Header = ({isSideiconpresent,setIsSideiconpresent}) => {
 }
 
 export default Header
+

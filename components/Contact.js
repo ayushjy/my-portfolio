@@ -23,7 +23,7 @@ const Contact = () => {
   };
 
   return (
-    <div className='px-56 py-36 max-md:py-24 max-lg:py-24 max-xl:py-28 flex flex-col max-lg:px-20 max-md:px-8 max-2xl:px-48 max-xl:h-screen'>
+    <div className='px-56 py-36 max-md:py-24 max-lg:py-24 max-xl:py-28 flex flex-col max-lg:px-20 max-md:px-8 max-2xl:px-48 lg:h-screen'>
         <div className='pb-24 max-xl:hidden'>
                 <div className='text-9xl font4 text-black text-center text_transparent lg:'>&lt;Contact /&gt;</div>
                 <div className='text-9xl font5 text-white text-center -my-16  max-xl:text-8xl'>👋 Say Hello</div>
