@@ -123,6 +123,7 @@
             "link": "https://pizza-house-ayush-jyoti.vercel.app/",
             "weblink":"https://pizza-house-ayush-jyoti.vercel.app/",
             "gitlink":"https://github.com/ayushjy/Pizza_House.git",
+            "target":"blank",
             "tech": [
                 "nextjs",
                 "tailwind",
@@ -136,6 +137,7 @@
             "link": "",
             "weblink":"",
             "gitlink":"https://github.com/ayushjy/CuePoint.git",
+            "target":"blank1",
             "tech": [
                 "nextjs",
                 "tailwind",
@@ -148,6 +150,7 @@
             "link": "https://sky-cast-ayush-jyoti.vercel.app/",
             "weblink":"https://sky-cast-ayush-jyoti.vercel.app/",
             "gitlink":"https://github.com/ayushjy/SkyCast.git",
+            "target":"blank2",
             "tech": [
                 "Html",
                 "Bootstrap",
@@ -161,6 +164,7 @@
             "link": "https://github.com/ayushjy/grocify.git",
             "weblink":"https://github.com/ayushjy/grocify.git",
             "gitlink":"https://github.com/ayushjy/grocify.git",
+            "target":"blank3",
             "tech": [
                 "Next.js",
                 "tailwind",
@@ -173,6 +177,7 @@
             "link": "https://cortexui-ayush-jyoti.vercel.app/",
             "weblink":"https://cortexui-ayush-jyoti.vercel.app/",
             "gitlink":"https://github.com/ayushjy/CortexUI.git",
+            "target":"blank4",
             "tech": [
                 "React",
                 "tailwind",

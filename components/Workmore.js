@@ -26,7 +26,7 @@ const Workmore = ({project_info}) => {
                             <div className='w-4 h-4 rounded-full bg-green-500'></div>
                         </div>
                         <div className='text-gray-400 font3 text-base flex gap-2'>
-                            <Link href={`${ev.weblink}`} target='blank'><div className='cursor-pointer'><GoLinkExternal size={25} /></div></Link>
+                            <Link href={`${ev.weblink}`} target={ev.target}><div className='cursor-pointer'><GoLinkExternal size={25} /></div></Link>
                             <Link href={`${ev.gitlink}`} target='_blank'><div className='cursor-pointer'><FiGithub size={25} /></div></Link>
                         </div>
                     </div>
