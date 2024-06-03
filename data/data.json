@@ -134,8 +134,8 @@
         {
             "id": 3,
             "title": "Redux-ToDo-App",
-            "link": "",
-            "weblink":"https://redux-todo-ayush-jyoti-app.vercel.app/",
+            "link": "https://redux-todo-ayush-jyoti-app.vercel.app",
+            "weblink":"https://redux-todo-ayush-jyoti-app.vercel.app",
             "gitlink":"https://github.com/ayushjy/Redux-Todo-App.git",
             "tech": [
                 "nextjs",
