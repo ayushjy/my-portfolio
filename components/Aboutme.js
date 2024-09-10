@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import Image from 'next/image';
 import Link from 'next/link';
 import FAQ from './FAQ';
+import { FaYoutube } from "react-icons/fa6";
 const Aboutme = () => {
 
     const data = [
@@ -55,13 +56,20 @@ const Aboutme = () => {
             achieve_details: [
                 {
                     id: 1,
+                    title: '30DC Challenge winner',
+                    title_head: 'Among top 5 winners | June 2024',
+                    desc1: 'Secured a prestigious top 5 ranking in an 30 Day Coding Challenge by Aryan Singh',
+                    desc3: 'https://www.youtube.com/watch?v=JCUFQWefAfs',
+                },
+                {
+                    id: 2,
                     title: 'CU Tackethon runnerup',
                     title_head: 'Top 5 among 120 participants | march 2022',
                     desc1: 'Developed Skillsphere, a web application that provides users with hand-picked YouTube courses, real-time discussions, sharing projects, and getting feedback on them, resulting in a win at the Hashnode Hackathon and recognition in the tech community.',
                     desc2: 'The project currently has 20+ registered users and has been praised for its innovative approach to online learning.',
                 },
                 {
-                    id: 2,
+                    id: 3,
                     title: 'LinkedIn',
                     title_head: '150+ Followers',
                     desc1: 'Grew LinkedIn following to 150+ followers through consistent and engaging content creation, establishing myself as a thought leader in the software development community and building a strong professional network.'
@@ -73,7 +81,7 @@ const Aboutme = () => {
         {
             id: 5,
             name: 'Resume',
-            resume: "/assets/Ayush_Resume.pdf",
+            resume: "/assets/Ayush_resume.pdf",
             description: 'Description for Item 2'
         },
     ];
@@ -169,13 +177,13 @@ const Aboutme = () => {
                             </div>
 
                             {/* for achievements */}
-                            {selectedItem.achieve_details && selectedItem.achieve_details.map((ev) => (
+                            {selectedItem.achieve_details &&  selectedItem.achieve_details.map((ev) => (
                                 <div key={ev.id} className='bg-gray-900 flex flex-col justify-center w-full  mb-5  px-6 py-4 rounded-lg'>
                                     {ev.title && (<div className='text-xl font3 text-white pb-1'>{ev.title}</div>)}
                                     {ev.title_head && (<div className='text-md font8 text-gray-400 pb-3'>{ev.title_head}</div>)}
                                     {ev.desc1 && (<li className='text-md font8 text-gray-400 pb-1'>{ev.desc1}</li>)}
                                     {ev.desc2 && (<li className='text-md font8 text-gray-400 pb-1'>{ev.desc2}</li>)}
-                                    {ev.desc3 && (<li className='text-md font8 text-gray-400 '>{ev.desc3}</li>)}
+                                    {ev.desc3 && (<li className='text-md font8 text-gray-400  items-center '>Check out the YouTube Link <Link href={ev.desc3}><FaYoutube size={30} className='inline-block ml-1 text-red-700'/></Link></li>)}
                                 </div>
                             ))}
                             {selectedItem.name === 'Resume' ? (
