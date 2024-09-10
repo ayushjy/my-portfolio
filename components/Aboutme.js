@@ -57,7 +57,7 @@ const Aboutme = () => {
                 {
                     id: 1,
                     title: '30DC Challenge winner',
-                    title_head: 'Among top 5 winners | June 2024',
+                    title_head: 'Among top 4 winners | June 2024',
                     desc1: 'Secured a prestigious top 5 ranking in an 30 Day Coding Challenge by Aryan Singh',
                     desc3: 'https://www.youtube.com/watch?v=JCUFQWefAfs',
                 },
@@ -68,12 +68,12 @@ const Aboutme = () => {
                     desc1: 'Developed Skillsphere, a web application that provides users with hand-picked YouTube courses, real-time discussions, sharing projects, and getting feedback on them, resulting in a win at the Hashnode Hackathon and recognition in the tech community.',
                     desc2: 'The project currently has 20+ registered users and has been praised for its innovative approach to online learning.',
                 },
-                {
-                    id: 3,
-                    title: 'LinkedIn',
-                    title_head: '150+ Followers',
-                    desc1: 'Grew LinkedIn following to 150+ followers through consistent and engaging content creation, establishing myself as a thought leader in the software development community and building a strong professional network.'
-                }
+                // {
+                //     id: 3,
+                //     title: 'LinkedIn',
+                //     title_head: '150+ Followers',
+                //     desc1: 'Grew LinkedIn following to 150+ followers through consistent and engaging content creation, establishing myself as a thought leader in the software development community and building a strong professional network.'
+                // }
             ]
         },
 
