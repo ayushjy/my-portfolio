@@ -73,7 +73,7 @@ const Aboutme = () => {
         {
             id: 5,
             name: 'Resume',
-            resume: "/assets/Resume.pdf",
+            resume: "/assets/Ayush_Resume.pdf",
             description: 'Description for Item 2'
         },
     ];
