@@ -6,7 +6,7 @@ import { TbMailFilled } from "react-icons/tb";
 
 const Contact = () => {
   const handleWhatsappClick = () => {
-    const phoneNumber = '9608891616'; 
+    const phoneNumber = process.env.PHONE_NUMBER; 
     const message = 'Hello from My Website!'; 
 
     const whatsappLink = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;

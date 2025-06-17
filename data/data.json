@@ -4,7 +4,7 @@
             "id": 1,
             "name": "Education",
             "title": "Chandigarh University",
-            "title_head": "Computer Science Engineering | 2020 - 2024",
+            "title_head": "Computer Science Engineering | 2021 - 2025",
             "desc1": "Completed relevant coursework in data structures and algorithms, software engineering, operating systems, and database systems",
             "desc2": "Volunteered juniors to Up-skill in programming and Web Development"
         },
@@ -35,6 +35,80 @@
     ],
 
     "card_details": [
+         {
+            "id": 1,
+            "category": "Personal",
+            "title": "Queryhub",
+            "year": 2025,
+            "tech": [
+                {
+                    "pngimg": "/assets/Langchain.png",
+                    "color": "black"
+                },
+                {
+                    "pngimg": "/assets/openai.png"
+                },
+                {
+                    "pngimg": "/assets/express.png"
+                },
+                {
+                    "pngimg": "/assets/react.png"
+                },
+                {
+                    "pngimg": "/assets/tailwind.png"
+                },      
+                {
+                    "pngimg": "/assets/mongodb.png"
+                },
+                {
+                    "pngimg": "/assets/redis.png"
+                },
+                {
+                    "pngimg": "/assets/S3.png"
+                }
+            ],
+            "image": "/assets/queryhub.png",
+            "weblink":"https://queryhub-ayushjy.vercel.app/",
+            "gitlink":"https://github.com/ayushjy/Queryhub.git",
+            "type": "Webapp"
+        },
+         {
+            "id": 1,
+            "category": "Personal",
+            "title": "InfoPilot",
+            "year": 2025,
+            "tech": [
+                {
+                    "pngimg": "/assets/Langchain.png",
+                    "color": "black"
+                },
+                {
+                    "pngimg": "/assets/openai.png"
+                },
+                {
+                    "pngimg": "/assets/express.png"
+                },
+                {
+                    "pngimg": "/assets/react.png"
+                },
+                {
+                    "pngimg": "/assets/tailwind.png"
+                },      
+                {
+                    "pngimg": "/assets/mongodb.png"
+                },
+                {
+                    "pngimg": "/assets/redis.png"
+                },
+                {
+                    "pngimg": "/assets/serpAPI.png"
+                }
+            ],
+            "image": "/assets/InfoPilot.png",
+            "weblink":"https://infopilot-ayushjy.vercel.app/",
+            "gitlink":"https://github.com/ayushjy/Infopilot.git",
+            "type": "Webapp"
+        },
         {
             "id": 1,
             "category": "Hackethon",
@@ -204,61 +278,99 @@
             "category": "FRONTEND",
             "images": [
                 {
-                    "name": "js",
+                    "name": "Js",
                     "src": "/assets/javascript.png"
                 },
                 {
-                    "name": "react",
+                    "name": "React",
                     "src": "/assets/react.png"
                 },
                 {
-                    "name": "redux",
+                    "name": "Redux",
                     "src": "/assets/redux.png"
                 },
                 {
-                    "name": "tailwind",
+                    "name": "Tailwind",
                     "src": "/assets/tailwind.png"
                 },
                 {
-                    "name": "next",
+                    "name": "Next",
                     "src": "/assets/nextjs.png"
                 },
                 {
-                    "name": "html",
+                    "name": "Html",
                     "src": "/assets/html.png"
                 },
                 {
-                    "name": "css",
+                    "name": "Css",
                     "src": "/assets/css.png"
                 }
             ]
         },
         {
-            "category": "OTHER",
+            "category": "BACKEND",
             "images": [
                 {
-                    "name": "github",
+                    "name": "Node.js",
+                    "src": "/assets/node.png"
+                },
+                {
+                    "name": "Express.js",
+                    "src": "/assets/express.png"
+                },
+                {
+                    "name": "Rest",
+                    "src": "/assets/restAPI.png"
+                },
+                {
+                    "name": "Langchain.js",
+                    "src": "/assets/Langchain.png"
+                }
+               
+            ]
+        },
+        {
+            "category": "OTHER",
+            "images": [
+                 {
+                    "name": "OpenAI",
+                    "src": "/assets/openai.png"
+                },
+                {
+                    "name": "Pinecone",
+                    "src": "/assets/pinecone.png"
+                },
+                {
+                    "name": "Redis",
+                    "src": "/assets/redis.png"
+                },
+                {
+                    "name": "S3",
+                    "src": "/assets/S3.png"
+                },
+                {
+                    "name": "Ollama",
+                    "src": "/assets/ollama.png"
+                },
+                {
+                    "name": "SerpAPI",
+                    "src": "/assets/serpAPI.png"
+                },
+                {
+                    "name": "Github",
                     "src": "/assets/github.png"
                 },
                 {
-                    "name": "mongodb",
+                    "name": "Mongodb",
                     "src": "/assets/mongo.png"
                 },
                 {
-                    "name":"firebase",
+                    "name":"Firebase",
                     "src":"/assets/firebase.png"
                 },
                 {
-                    "name": "framer",
+                    "name": "Framer",
                     "src": "/assets/framer.png"
-                },
-                {
-                    "name": "vscode",
-                    "src": "/assets/vscode.png"
-                },
-                {
-                    "name": "vercel",
-                    "src": "/assets/vercel.png"
                 }
             ]
         }

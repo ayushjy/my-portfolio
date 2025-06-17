@@ -11,7 +11,7 @@ const Aboutme = () => {
             name: 'Education',
             education: 'Education',
             title: 'Chandigarh University',
-            title_head: 'Computer Science Engineering | 2020 - 2024',
+            title_head: 'Computer Science Engineering | 2021 - 2025',
             desc1: 'Completed relevant coursework in data structures and algorithms, software engineering, operating systems, and database systems',
             desc2: 'Volunteered juniors to Up-skill in programming and Web Development'
         },
@@ -22,13 +22,25 @@ const Aboutme = () => {
                 {
                     category: "FRONTEND",
                     images: [
-                        { name: "javascript", src: "/assets/javascript.png" },
-                        { name: "react", src: "/assets/react.png" },
-                        { name: "redux", src: "/assets/redux.png" },
-                        { name: "tailwind", src: "/assets/tailwind.png" },
-                        { name: "next", src: "/assets/nextjs.png" },
-                        { name: "html", src: "/assets/html.png" },
-                        { name: "css", src: "/assets/css.png" }
+                        { name: "Javascript", src: "/assets/javascript.png" },
+                        { name: "React", src: "/assets/react.png" },
+                        { name: "Redux", src: "/assets/redux.png" },
+                        { name: "Tailwind", src: "/assets/tailwind.png" },
+                        { name: "Text", src: "/assets/nextjs.png" },
+                        { name: "Html", src: "/assets/html.png" },
+                        { name: "Css", src: "/assets/css.png" }
+                    ]
+                },
+
+            ],
+            backend: [
+                {
+                    category: "BACKEND",
+                    images: [
+                        { name: "Node.js", src: "/assets/node.png" },
+                        { name: "Express.js", src: "/assets/express.png" },
+                        { name: "Rest API", src: "/assets/restAPI.png" },
+                        { name: "Langchain.js", src: "/assets/Langchain.png"},
                     ]
                 },
 
@@ -37,12 +49,19 @@ const Aboutme = () => {
                 {
                     category: "OTHER",
                     images: [
-                        { name: "github", src: "/assets/github.png" },
-                        { name: "mongodb", src: "/assets/mongo.png" },
-                        { name: "firebase", src: "/assets/firebase.png" },
-                        { name: "framer", src: "/assets/framer.png" },
-                        { name: "vscode", src: "/assets/vscode.png" },
-                        { name: "vercel", src: "/assets/vercel.png" }
+                        { name: "OpenAI", src: "/assets/openai.png" },
+                        { name: "Pinecone", src: "/assets/pinecone.png" },
+                        { name: "Redis", src: "/assets/redis.png" },
+                        { name: "S3", src: "/assets/S3.png" },
+                        { name: "Ollama", src: "/assets/ollama.png" },
+                        { name: "SerpAPI", src: "/assets/serpAPI.png" },
+                        { name: "Github", src: "/assets/github.png" },
+                        { name: "Mongodb", src: "/assets/mongo.png" },
+                        { name: "Firebase", src: "/assets/firebase.png" },
+                        { name: "Framer", src: "/assets/framer.png" },
+                        // { name: "Vscode", src: "/assets/vscode.png" },
+                        // { name: "Vercel", src: "/assets/vercel.png" },
+                        // { name: "Render", src: "/assets/render.png" }
                     ]
                 }
             ]
@@ -160,7 +179,23 @@ const Aboutme = () => {
                                         </div>))}
                                 </div>
                             ))}
+                            {/* for backend */}
+                            <div className='pb-10'>
+                                {selectedItem.backend && (selectedItem.backend.map((ev) => (
+                                    <div className='text-xl font4 pb-3 text-green-400'>👨‍💻 {ev.category}</div>
+                                )))}
+                                {selectedItem.backend && selectedItem.backend.map((backend) => (
+                                    <div className='grid grid-cols-5 w-full gap-4'>
+                                        {backend.images.map((ev) => (
+                                            <div className='h-28 rounded-lg bg-gray-800 flex flex-col justify-center items-center gap-4 hover:rotate-6 duration-150'>
+                                                <div><Image src={ev.src} width={45} height={100} ></Image></div>
+                                                <div className='text-white text-xs font1'>{ev.name}</div>
+                                            </div>))}
+                                    </div>
+                                ))}
+                            </div>
                             {/* for other */}
+
                             <div>
                                 {selectedItem.other && (selectedItem.other.map((ev) => (
                                     <div className='text-xl font4 pb-3 text-green-400'>👨‍💻 {ev.category}</div>

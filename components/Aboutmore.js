@@ -20,7 +20,7 @@ const Aboutmore = () => {
                 <div className='text-xl font4 pb-4'>
                     😎<span className='text-green-400'> About me</span>
                 </div>
-                <div className='text-gray-400 text-2xl max-lg:text-xl font1 pb-5'>I am a Front-end creative developer based in Biharsharif, India. I am a Computer Science undergraduate from Chandigarh University and also did some coursework in Designing and Visual Arts.</div>
+                <div className='text-gray-400 text-2xl max-lg:text-xl font1 pb-5'>I am a Full-stack creative developer based in Biharsharif, India. I am a Computer Science graduated from Chandigarh University and also did some coursework in Designing and Visual Arts.</div>
                 <div className='text-gray-400 text-2xl max-lg:text-xl font1 pb-5'> I enjoy using my skill-set to empower people to accomplish their goals. My development stack is focused on converting ideas into sites & apps that work. I create lighting fast WebApps and Websites using <span className='text-green-400 font4'>MERN</span> Stack with the help of NextJS.</div>
             </div>
             <div>

@@ -4,6 +4,7 @@ import Aboutmore from '@/components/Aboutmore'
 import Aboutways from '@/components/Aboutways';
 import Aboutwhy from '@/components/Aboutwhy';
 const about = ({tools}) => {
+ 
   return (<>
     <div className='h-full w-full pb-28 bg-[#030a12]'>
         <Aboutmore/>
